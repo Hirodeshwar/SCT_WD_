@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch Web Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="stopwatch-container">
+        <h1>Stopwatch</h1>
+        <div id="display" class="display">00:00:00</div>
+        <div class="buttons">
+            <button id="startBtn">Start</button>
+            <button id="stopBtn" disabled>Stop</button>
+            <button id="resetBtn" disabled>Reset</button>
+            <button id="lapBtn" disabled>Lap</button> <!-- New Lap Button -->
+        </div>
+        <h2>Lap Times</h2>
+        <ul id="lapList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
